@@ -6,7 +6,7 @@
 
 function isPalindrome(str) {
     const formattedStr = removeNonAlphaNumeric(str.toLowerCase());
-    return formattedStr;
+    const reverseStr   = reverseString
 }
 
 function removeNonAlphaNumeric(str){
@@ -34,7 +34,11 @@ function isAlphaNumeric(char){
 }
 
 function reverseString(str){
+ let reversed = ''
 
+ for(let i = str.length - 1; i >= 0; i--){
+    reversed
+ }
 }
 
 module.exports = isPalindrome;
