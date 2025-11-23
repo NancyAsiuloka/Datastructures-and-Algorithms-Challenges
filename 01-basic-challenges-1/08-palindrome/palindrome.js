@@ -5,7 +5,7 @@
 // }
 
 function isPalindrome(str) {
-    const formattedStr = removeNonAlphaNumeric()
+    const formattedStr = removeNonAlphaNumeric(str.toLowerCase())
 }
 
 function removeNonAlphaNumeric(str){
