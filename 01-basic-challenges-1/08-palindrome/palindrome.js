@@ -5,10 +5,10 @@
 // }
 
 function isPalindrome(str) {
-    const formattedStr = removeAlphaNumeric()
+    const formattedStr = removeNonAlphaNumeric()
 }
 
-function removeAlphaNumeric(str){
+function removeNonAlphaNumeric(str){
     let formattedStr = '';
 
     for (let i = 0; i < str.length; i++){
