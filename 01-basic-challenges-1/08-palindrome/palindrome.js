@@ -18,6 +18,8 @@ function removeAlphaNumeric(str){
         }
     }
 
+    return formattedStr
+
     // .replace(/[^a-z0-9]/g
 }
 
