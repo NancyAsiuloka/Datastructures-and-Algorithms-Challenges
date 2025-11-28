@@ -9,6 +9,8 @@ function isPalindrome(str) {
 }
 
 function removeAlphaNumeric(str){
+    let formattedStr = ''
+
     // .replace(/[^a-z0-9]/g
 }
 
