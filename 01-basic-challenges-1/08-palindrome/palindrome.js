@@ -17,7 +17,7 @@ function isAlphaNumeric(char){
 
     return(
         (code >= 48 && code <= 57) || // Numbers 0-9
-        (code >= 97 && code <= 122)
+        (code >= 97 && code <= 122) // Lowercase a-z
     )
 }
 
