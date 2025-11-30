@@ -5,7 +5,7 @@
 // }
 
 function isPalindrome(str) {
-
+    return isAlphaNumeric()
 }
 
 function removeAlphaNumeric(str){
