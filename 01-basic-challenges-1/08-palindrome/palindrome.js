@@ -13,11 +13,16 @@ function removeAlphaNumeric(str){
 }
 
 function isAlphaNumeric(char){
+    const code = char.charCodeAt(0)
 
+    return(
+        (code >= 48 && code <= 57) || // Numbers 0-9
+        (code >= 97 && code <= 122)
+    )
 }
 
 function reverseString(str){
-    
+
 }
 
 module.exports = isPalindrome;
