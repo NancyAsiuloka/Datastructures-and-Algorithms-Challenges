@@ -12,4 +12,8 @@ function removeAlphaNumeric(str){
     // .replace(/[^a-z0-9]/g
 }
 
+function isAlphaNumeric(char){
+    
+}
+
 module.exports = isPalindrome;
