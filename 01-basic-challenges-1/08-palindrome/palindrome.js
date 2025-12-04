@@ -5,7 +5,11 @@
 // }
 
 function isPalindrome(str) {
-    
+
+}
+
+function removeAlphaNumeric(str){
+    // .replace(/[^a-z0-9]/g
 }
 
 module.exports = isPalindrome;
